@@ -10,16 +10,16 @@ colorSchemes[1] = ["#f54341", "#c81211"]
 colorSchemes[2] = ["#f0d588", "#e9cb82"]
 
 function setup() {
-  createCanvas(w, w)
+  createCanvas(w, w, SVG)
   noStroke()
   colorScheme = random(colorSchemes)
-  // colorScheme = colorSchemes[2]
+  // colorScheme = colorSchemes[0]
 }
 
 function draw() {
   background(colorScheme[0])
   drawYagasuri()
-  // save("yagasuri_03.svg");
+  // save("yagasuri_01.svg");
   // print("saved svg");
   // noLoop();
 }
