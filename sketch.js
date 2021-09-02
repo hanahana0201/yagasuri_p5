@@ -1,7 +1,5 @@
 const w = 5000
 
-const s = 80
-const d = w / s
 // Color Scheme (light, dark)
 const colorSchemes = []
 // Blue
