@@ -19,7 +19,7 @@ function setup() {
 function draw() {
   background(colorScheme[0])
   drawYagasuri()
-  // save("yagasuri_01.svg");
+  // save("yagasuri_random.svg");
   // print("saved svg");
   // noLoop();
 }
@@ -32,8 +32,8 @@ function drawYagasuri() {
 
   fill(colorScheme[1])
 
-  for (let i = -1; i < width * 2 / dx; i++) {
-    for (let j = -1; j < height * 2 / dy; j++) {
+  for (let i = -1; i < width / dx; i++) {
+    for (let j = -1; j < height / dy; j++) {
       const px = i * dx
       const py = j * dy
       if (j % 2 === 0) {
